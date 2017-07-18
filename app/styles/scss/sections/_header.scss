@@ -1,0 +1,20 @@
+.header {
+	padding:10rem 3rem 3rem;
+	background-image: url("../images/background_1.jpg");
+	height:100vh;
+		&__title {
+			position: relative;
+			display: inline-block;
+			&::after {
+				position: absolute;
+				display: block;
+				content:"";
+				bottom:-1rem;
+				left:50%;
+				transform: translateX(-50%);
+				text-align: center;
+				width:50%;
+				border-top:2px solid;
+			}
+		}
+}

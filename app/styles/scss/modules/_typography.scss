@@ -1,17 +1,57 @@
-//--------------------General typography--------------------
+//**************************General typography**************************
 html {
-	font-size:12px;
+	font-size:14px;
 	@media screen and (min-width:$tablet) {
-		font-size:14px;
-	}
-	@media screen and (min-width:$notebook) {
 		font-size:16px;
 	}
-	@media screen and (min-width:$fhd) {
+	@media screen and (min-width:$notebook) {
 		font-size:18px;
+	}
+	@media screen and (min-width:$fhd) {
+		font-size:20px;
 	}
 }
 
 html {
 	font-family: Lato, Tahoma, sans-serif;
+}
+
+.t2 {
+	font-size: 3rem;
+}
+
+.t1 {
+	font-size: 2rem;
+}
+
+.t0 {
+	font-size: 1rem;
+}
+
+.s1 {
+	font-size: 0.7rem;
+}
+
+.heading {
+	font-weight: 700;
+}
+
+.link {
+	list-style: none;
+}
+
+//**************************Navbar**************************
+.menu {
+	&__item {
+		list-style: none;
+		line-height:3;
+	}
+	&__link {
+		text-decoration: none;
+	}
+}
+
+//**************************Header**************************
+.header {
+	text-align: center;
 }

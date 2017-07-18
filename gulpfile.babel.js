@@ -11,8 +11,8 @@ import {output as pagespeed} from 'psi';
 import pkg from './package.json';
 import json from 'json-file';
 
-const pageNAME = 'cr8tive';
-const pageURL = 'cr8tive';
+const pageNAME = 'portfolio';
+const pageURL = 'portfolio';
 const themeName = json.read('./package.json').get('themeName');
 const themeDir = '../' + themeName;
 const $ = gulpLoadPlugins();
@@ -147,7 +147,7 @@ gulp.task('serve', ['scripts', 'styles'], () => {
     scrollElementMapping: ['main', '.mdl-layout'],
     // https: true,
     // server: ['.tmp', 'app'],
-      proxy: 'localhost/cr8tive/app',
+      proxy: 'localhost/portfolio/app',
     port: 3000
   });
 
