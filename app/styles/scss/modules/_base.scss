@@ -1,0 +1,20 @@
+//--------------------Mixins & placeholders--------------------
+
+%clearfix {
+	&::after {
+		content:"";
+		display:table;
+		clear:both;
+	}
+}
+
+@mixin media-min($size) {
+	@media screen and (min-width:$size) {
+		@content;
+	}
+}
+
+//--------------------General styles--------------------
+* {
+	box-sizing: border-box;
+}

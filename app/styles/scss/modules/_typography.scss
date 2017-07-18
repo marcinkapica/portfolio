@@ -1,0 +1,17 @@
+//--------------------General typography--------------------
+html {
+	font-size:12px;
+	@media screen and (min-width:$tablet) {
+		font-size:14px;
+	}
+	@media screen and (min-width:$notebook) {
+		font-size:16px;
+	}
+	@media screen and (min-width:$fhd) {
+		font-size:18px;
+	}
+}
+
+html {
+	font-family: Lato, Tahoma, sans-serif;
+}
