@@ -1,4 +1,31 @@
 .projects {
-	height: 100vh;
-	background-color:red;
+	min-height: 100vh;
+	padding:3rem;
+	&__title {
+		position: relative;
+		display: inline-block;
+	}
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		margin:5rem 0 2rem;
+		justify-content: space-around;
+	}
+	&__box {
+		flex-basis: 100%;
+		flex-shrink: 1;
+		transition: 0.4s;
+		padding-bottom: 2rem;
+		@media screen and (min-width:$notebook){
+			flex-basis: 40%;
+		}
+	}
+	&__image {
+		max-width: 100%;
+	}
+	&__link {
+		&:hover {
+			opacity: 0.8;
+		}
+	}
 }

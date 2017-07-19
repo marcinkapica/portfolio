@@ -1,5 +1,4 @@
-//--------------------Mixins & placeholders--------------------
-
+//**************************Variables, mixins & placeholders********************
 %clearfix {
 	&::after {
 		content:"";
@@ -8,13 +7,29 @@
 	}
 }
 
-@mixin media-min($size) {
-	@media screen and (min-width:$size) {
-		@content;
-	}
-}
+$arrow-size: 3rem;
 
-//--------------------General styles--------------------
+//**************************General styles**************************
 * {
 	box-sizing: border-box;
+}
+
+.link {
+	display: inline-block;
+}
+
+.underline {
+	position: relative;
+	display: inline-block;
+	&::after {
+		position: absolute;
+		display: block;
+		content:"";
+		bottom:-1rem;
+		left:50%;
+		transform: translateX(-50%);
+		text-align: center;
+		width:75%;
+		border-top:2px solid;
+	}
 }

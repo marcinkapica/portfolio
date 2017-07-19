@@ -29,7 +29,7 @@ html {
 }
 
 .s1 {
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 }
 
 .heading {
@@ -37,7 +37,7 @@ html {
 }
 
 .link {
-	list-style: none;
+	text-decoration: none;
 }
 
 //**************************Navbar**************************
@@ -45,13 +45,16 @@ html {
 	&__item {
 		list-style: none;
 		line-height:3;
-	}
-	&__link {
-		text-decoration: none;
+		text-transform: uppercase;
 	}
 }
 
 //**************************Header**************************
 .header {
+	text-align: center;
+}
+
+//**************************Projects**************************
+.projects {
 	text-align: center;
 }

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
-	<title>Marcin Kapica</title>
+	<title>Marcin Kapica | Portfolio</title>
 	<meta name="description" content="Marcin Kapica - Portfolio">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="styles/vendor/normalize.min.css">
@@ -13,26 +13,51 @@
 <body>
 
 <!--**************************Navbar**************************-->
-<nav class="navbar">
+<nav id="navbar" class="navbar js-navbar">
 	<ul class="menu">
+		<li class="menu__item"><a href="#header" class="menu__link link">Start</a></li>
 		<li class="menu__item"><a href="#projects" class="menu__link link">Projekty</a></li>
-		<li class="menu__item"><a href="#about" class="menu__link link">O mnie</a></li>
+		<li class="menu__item"><a href="#about" class="menu__link link">O&nbsp;mnie</a></li>
 		<li class="menu__item"><a href="#contact" class="menu__link link">Kontakt</a></li>
 	</ul>
 </nav>
 
 
 <!--**************************Header**************************-->
-	<header class="header">
-		<div class="header__wrapper rellax" data-rellax-speed="4">
-			<h1 class="header__title heading t2">Marcin Kapica</h1>
-			<h2 class="header__subtitle heading t0">Junior Front-End Developer</h2>
+	<header id="header" class="header">
+		<div class="header__wrapper rellax" data-rellax-speed="6">
+			<h1 class="header__title heading underline t2">Marcin Kapica</h1>
+			<p class="header__text t0">Junior Front-End Developer</p>
 		</div>
+		<a href="#projects"><span class="header__arrow"></span></a>
 	</header>
 
 
 <!--**************************Projects**************************-->
 	<section id="projects" class="projects">
+		<h2 class="heading underline t1">Projekty</h2>
+		<div class="projects__wrapper">
+			<div class="projects__box">
+				<a class="projects__link link" href="https://marcinkapica.github.io/cr8tive/app" target="_blank">
+					<img class="projects__image" src="images/project_1.jpg">
+					<h3>Cr8tive Digital Agency</h3>
+					<p class="s1">Strona internetowa na podstawie darmowego szablonu .psd</p>
+				</a>
+			</div>
+			<div class="projects__box">
+				<a class="projects__link link" href="http://www.hempyapple.pl" target="_blank">
+					<img class="projects__image" src="images/project_2.jpg">
+					<h3 class="heading">Hempy Drink</h3>
+					<p class="s1">Strona internetowa napojów Hempy Drink</p>
+				</a>
+			</div>
+		</div>
+		<div class="projects__github">
+			<a class="projects__link link" href="https://github.com/marcinkapica" target="_blank">
+				<img class="projects__image" src="images/github_logo.png">
+				<p class="s1">https://github.com/marcinkapica</p>
+			</a>
+		</div>
 
 	</section>
 
