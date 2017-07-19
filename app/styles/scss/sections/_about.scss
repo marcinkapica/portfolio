@@ -1,4 +1,11 @@
 .about {
-	height: 100vh;
-	background-color:green;
+	padding: 3rem;
+	@media screen and (min-width: $notebook) {
+		padding: 3rem 10rem;
+	}
+	&__image {
+		border-radius: 50%;
+		width: 12rem;
+		margin:2rem;
+	}
 }

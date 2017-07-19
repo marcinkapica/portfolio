@@ -40,6 +40,10 @@ html {
 	text-decoration: none;
 }
 
+.header, .projects, .about, .contact {
+	text-align: center;
+}
+
 //**************************Navbar**************************
 .menu {
 	&__item {
@@ -51,10 +55,15 @@ html {
 
 //**************************Header**************************
 .header {
-	text-align: center;
+
 }
 
 //**************************Projects**************************
 .projects {
-	text-align: center;
+
+}
+
+//**************************About**************************
+.about {
+
 }

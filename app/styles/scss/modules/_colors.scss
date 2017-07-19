@@ -28,7 +28,7 @@ html {
 //**************************Header**************************
 .header {
 	color:#fff;
-	text-shadow: 3px 3px 20px #444;
+	text-shadow: 3px 3px 20px #888;
 	&__arrow {
 		border-color: #fff;
 	}
@@ -38,4 +38,11 @@ html {
 
 .projects {
 	background-color:#ddd;
+}
+
+//**************************About**************************
+
+.about {
+	color: #fff;
+	background-color: #15191d;
 }
