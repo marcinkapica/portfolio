@@ -16,6 +16,11 @@ $arrow-size: 3rem;
 
 .link {
 	display: inline-block;
+	&--box {
+		&:hover {
+			opacity: 0.8;
+		}
+	}
 }
 
 .underline {

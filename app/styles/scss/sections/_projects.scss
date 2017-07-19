@@ -7,7 +7,7 @@
 	&__wrapper {
 		display: flex;
 		flex-wrap: wrap;
-		margin:5rem 0 2rem;
+		margin:4rem 0 2rem;
 		justify-content: space-around;
 	}
 	&__box {
@@ -21,10 +21,5 @@
 	}
 	&__image {
 		max-width: 100%;
-	}
-	&__link {
-		&:hover {
-			opacity: 0.8;
-		}
 	}
 }
