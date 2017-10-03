@@ -1,0 +1,15 @@
+.about {
+	padding: 3rem;
+	@media screen and (min-width: $notebook) {
+		padding: 3rem 10rem;
+	}
+	&__image {
+		border-radius: 50%;
+		width: 12rem;
+		height: auto;
+		margin:4rem 0 2rem;
+	}
+    &__text {
+        line-height: 1.5;
+    }
+}
