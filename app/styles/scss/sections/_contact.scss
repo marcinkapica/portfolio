@@ -1,12 +1,13 @@
 .contact {
 	&__wrapper {
-		margin-top:4rem;
+		margin-top: 4rem;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
 	&__box {
-		flex-basis: 40%;
+		flex-basis: 45%;
+        flex-grow: 1;
 		margin: 0 1rem 2rem;
 	}
 }

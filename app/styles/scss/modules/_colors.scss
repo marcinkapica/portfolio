@@ -1,3 +1,6 @@
+$bg-primary: #ddd;
+$bg-secondary: #15191d;
+
 html {
 	color: #222;
 }
@@ -36,16 +39,22 @@ html {
 
 //**************************Projects**************************
 .projects {
-	background-color:#ddd;
+	background-color: $bg-primary;
 }
 
 //**************************About**************************
 .about {
 	color: #fff;
-	background-color: #15191d;
+	background-color: $bg-secondary;
 }
 
 //**************************Contact**************************
 .contact {
-	background-color: #fff;
+	background-color: $bg-primary;
+}
+
+//**************************Footer**************************
+.footer {
+    color: #fff;
+	background-color: $bg-secondary;
 }
