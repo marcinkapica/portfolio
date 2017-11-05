@@ -14,9 +14,9 @@
 		flex-basis: 100%;
 		flex-shrink: 1;
 		transition: 0.4s;
-		padding-bottom: 2rem;
+		padding: 2rem 0;
 		@media screen and (min-width:$notebook){
-			flex-basis: 40%;
+			flex-basis: 30%;
 		}
 	}
 	&__image {
